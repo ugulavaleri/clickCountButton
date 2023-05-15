@@ -1,0 +1,25 @@
+.buttonsBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.container:last-child {
+    margin-bottom: 0px;
+}
+.container {
+    max-width: 400px;
+    width: 100%;
+
+    margin: 0 auto;
+}
+button {
+    height: 70px;
+    padding: 0 30px;
+    background-color: rgba(213, 213, 213, 0.766);
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
